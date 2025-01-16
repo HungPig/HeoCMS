@@ -1,0 +1,6 @@
+@HeoBlog.Api_HostAddress = http://localhost:5062
+
+GET {{HeoBlog.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
