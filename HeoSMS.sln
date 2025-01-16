@@ -3,7 +3,37 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35527.113 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeoBlog.Core", "HeoBlog.Core\HeoBlog.Core.csproj", "{3A62F749-28E5-4B34-8E95-A2B878767854}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeoBlog.Data", "HeoBlog.Data\HeoBlog.Data.csproj", "{0F593F8F-54D8-44F5-BBAD-03C9005DF1A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeoBlog.WebApp", "HeoBlog.WebApp\HeoBlog.WebApp.csproj", "{45CB9FA4-25EE-4967-BB1B-A7930DB36B72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeoBlog.Api", "HeoBlog.Api\HeoBlog.Api.csproj", "{262BC9D9-C134-44AF-8E31-6FA634BB3D33}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A62F749-28E5-4B34-8E95-A2B878767854}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A62F749-28E5-4B34-8E95-A2B878767854}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A62F749-28E5-4B34-8E95-A2B878767854}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A62F749-28E5-4B34-8E95-A2B878767854}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F593F8F-54D8-44F5-BBAD-03C9005DF1A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F593F8F-54D8-44F5-BBAD-03C9005DF1A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F593F8F-54D8-44F5-BBAD-03C9005DF1A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F593F8F-54D8-44F5-BBAD-03C9005DF1A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45CB9FA4-25EE-4967-BB1B-A7930DB36B72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45CB9FA4-25EE-4967-BB1B-A7930DB36B72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45CB9FA4-25EE-4967-BB1B-A7930DB36B72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45CB9FA4-25EE-4967-BB1B-A7930DB36B72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{262BC9D9-C134-44AF-8E31-6FA634BB3D33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{262BC9D9-C134-44AF-8E31-6FA634BB3D33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{262BC9D9-C134-44AF-8E31-6FA634BB3D33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{262BC9D9-C134-44AF-8E31-6FA634BB3D33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
