@@ -64,6 +64,8 @@ namespace HeoBlog.Api
 
 
             app.MapControllers();
+            //Seeding Data
+            app.MigrateDatabase();
 
             app.Run();
         }
